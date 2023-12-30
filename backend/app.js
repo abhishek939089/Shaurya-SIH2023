@@ -22,7 +22,7 @@ app.use(cors())
 
  
 
-mongoose.connect("mongodb+srv://ishaanbharadwaj111:uAIqR4qprU5xOdZz@shaurya-db.mzfmfto.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp")
+mongoose.connect("")
 .then(()=>{console.log("Connect to dataBase")})
 .catch((err)=>console.log("Not Connect dB",err))
 
